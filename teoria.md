@@ -67,3 +67,37 @@ Elegir el entorno de PATH (específico de Windows):
 **Punto crítico**, conocer qué usa Windows como salto de línea: la primera opción es la más recomendable, ya que cuando descargo el código usa los saltos de líneas de Windows y cuando suba transforma los saltos de líneas en estilo Linux.
 
 ![image](https://github.com/eguirod/git/assets/71733548/c155c5ad-a023-450c-82db-dc15c91e5e75)
+
+### SourceTree
+* Interfaz gráfica para trabajar con GIT con todas las opciones.
+* Herramienta más completa con alternativas similares como GitKraken.
+* Enlace de descarga aquí.
+
+### GitHub Desktop
+Bastante utilizado por pertenecer a GitHub, pero no tiene integradas todas las opciones de Git.
+
+### Kdiff3
+* Sirve para resolver conflictos de forma visual.
+* Se suele usar en entornos Windows y Linux.
+* Enlace de descarga aquí.
+
+## Introducción a GitHub y GitLab-SSH
+
+### SSH
+Protocolo de red seguro para operaciones remotas, proporciona autenticación segura y comunicaciones cifradas.
+
+* Autenticación Clave Pública:
+*  Permite acceder a repositorios Git mediante un par de claves públicas y privadas.
+*  Mayor seguridad en comparación con la autenticación basada en contraseñas.
+* Configuración de Claves SSH.
+*  Generar un par de claves SSH: pública y privada.
+*  Agregar la calve pública al servidor Git para autenticación.
+* Uso con Git:
+*  Configurar Git para usar SSH en lugar de HTTP/HTTPS.
+*  Proporciona acceso seguro a repositorios remotos sin necesidad e ingresas credenciales cada vez.
+* Configurando SSH
+*  Generar un par de claves SSH: pública y privada desde una terminal:
+```
+ssh-keygen -t ed25519 -C “comentario”
+```
+*  Agregar la clave pública al servidor Git para autenticación.
