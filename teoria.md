@@ -9,9 +9,9 @@
 
 Es **distribuido** y **descentralizado**: cada desarrollador tiene copia completa y cuando quiera subir los cambio puede hacerlo.
 ## Estados
-* Modificado (modified): el archivo ha sido modificado desde la última confirmación.
-* Preparado (staged): se marcan los cambios para guardarlos (git add).
-* Confirmado (committed): confirmamos los cambio marcados (git commit).
+* **Modificado (modified)**: el archivo ha sido modificado desde la última confirmación.
+* **Preparado (staged)**: se marcan los cambios para guardarlos (git add).
+* **Confirmado (committed)**: confirmamos los cambio marcados (git commit).
 ## GIT FLOW
 No es la única de las metodologías sobre Git que podemos utilizar, pero si la más extendida.
 
