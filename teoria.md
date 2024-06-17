@@ -42,15 +42,21 @@ Enlace de descarga [aquí](https://git-scm.com/).
 Particularidades:
 En Windows podemos integrar con el explorador con:
 ![image](https://github.com/eguirod/git/assets/71733548/1967ebb3-b768-4173-bee0-ef84940d7025)
+
 Git LFS, para tratar con archivos grandes.
 ![image](https://github.com/eguirod/git/assets/71733548/4a6b152e-7d96-4d95-8f60-1b9cfbab3eee)
+
 Añadir Git Bash a la terminal de Windos
 ![image](https://github.com/eguirod/git/assets/71733548/d9705826-0b06-4ad4-b042-f0f5245bd511)
+
 Para elegir qué programa vamos a usar para editar los ficheros:
 ![image](https://github.com/eguirod/git/assets/71733548/338cd8de-6e62-4e49-b3be-d955c95eeeef)
+
 Para elegir el nombre de la rama main.
 ![image](https://github.com/eguirod/git/assets/71733548/768c2e20-07c0-4304-aa1f-34a3a10c1774)
+
 Elegir el entorno de PATH (específico de Windows):
 ![image](https://github.com/eguirod/git/assets/71733548/bfff0921-eadb-4ea5-9bcc-335da0af2ba4)
+
 **Punto crítico**, conocer qué usa Windows como salto de línea: la primera opción es la más recomendable, ya que cuando descargo el código usa los saltos de líneas de Windows y cuando suba transforma los saltos de líneas en estilo Linux.
 ![image](https://github.com/eguirod/git/assets/71733548/c155c5ad-a023-450c-82db-dc15c91e5e75)
