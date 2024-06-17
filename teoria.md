@@ -255,20 +255,35 @@ Esto fusionará los cambios de la rama feature en la rama master, creando un nue
 git merge es un comando más complejo de lo que parece, y puede llegar a combinar cambios de formas muy diversas. Aquí tenemos un pequeño resumen de la capacidad de git merge con diferentes estrategias para la gente con más curiosidad (esto queda fuera de los contenidos del curso, es algo avanzado):
 
 **Recursive**
+
 ```git merge -s recursive branch1 branch2```
+
 Esta estrategia actúa en dos heads. Recursive es la estrategia de fusión predeterminada a la hora de incorporar cambios de una rama o fusionarla. Además, permite detectar y manejar fusiones que implican cambios de nombre, aunque actualmente no puede usar copias detectadas. Se trata de la estrategia de fusión predeterminada a la hora de incorporar cambios de una rama o fusionarla.
+
 **Resolve**
+
 ```git merge -s resolve branch1 branch2```
+
 Esta estrategia solo permite resolver dos heads usando un algoritmo de fusión a 3 vías. Trata de detectar minuciosamente las ambigüedades de fusión entrecruzada y se la suele considerar una estrategia segura y rápida.
+
 **Octopus**
+
 ```git merge -s octopus branch1 branch2 branch3 branchN```
+
 Se trata de la estrategia de fusión predeterminada para más de dos heads. Cuando te mueves por más de una rama, Octopus se activa automáticamente. Si una fusión tiene conflictos que requieren una resolución manual, Octopus rechazará el intento de fusión. Se utiliza principalmente para agrupar heads de rama de función similares.
+
 **Ours**
+
 ```git merge -s ours branch1 branch2 branchN```
+
 Esta estrategia actúa en varios números N de ramas. El resultado de la fusión de salida es siempre el del HEAD de la rama actual. El término “ours” implica la preferencia ignorando efectivamente los cambios de todas las demás ramas. Está diseñado para combinar el historial de ramas de función similares.
+
 **Subtree**
+
 ```git merge -s subtree branchA branchB```
+
 Se trata de una extensión de la estrategia recursiva. Al fusionar A y B, si B es un subárbol secundario de A, B se actualiza en primer lugar para reflejar la estructura de árbol de A. Esta actualización también se realiza en el árbol antecesor común compartido entre A y B.
+
 ## Estrategia Rebase
 Busca la conversión del código, pero reescribiendo la o las ramas quedando todo mucho más limpio.
 ## Estrategia Merge Squash-Rebase
