@@ -87,17 +87,17 @@ Bastante utilizado por pertenecer a GitHub, pero no tiene integradas todas las o
 Protocolo de red seguro para operaciones remotas, proporciona autenticación segura y comunicaciones cifradas.
 
 * Autenticación Clave Pública:
- * Permite acceder a repositorios Git mediante un par de claves públicas y privadas.
- * Mayor seguridad en comparación con la autenticación basada en contraseñas.
+    * Permite acceder a repositorios Git mediante un par de claves públicas y privadas.
+    * Mayor seguridad en comparación con la autenticación basada en contraseñas.
 * Configuración de Claves SSH.
- * Generar un par de claves SSH: pública y privada.
- * Agregar la calve pública al servidor Git para autenticación.
+    * Generar un par de claves SSH: pública y privada.
+    * Agregar la calve pública al servidor Git para autenticación.
 * Uso con Git:
-  * Configurar Git para usar SSH en lugar de HTTP/HTTPS.
-  * Proporciona acceso seguro a repositorios remotos sin necesidad e ingresas credenciales cada vez.
+    * Configurar Git para usar SSH en lugar de HTTP/HTTPS.
+    * Proporciona acceso seguro a repositorios remotos sin necesidad e ingresas credenciales cada vez.
 * Configurando SSH
- * Generar un par de claves SSH: pública y privada desde una terminal:
+    * Generar un par de claves SSH: pública y privada desde una terminal:
 ```
 ssh-keygen -t ed25519 -C “comentario”
 ```
- * Agregar la clave pública al servidor Git para autenticación.
+    * Agregar la clave pública al servidor Git para autenticación.
