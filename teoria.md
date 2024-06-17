@@ -39,6 +39,7 @@ No es la única de las metodologías sobre Git que podemos utilizar, pero si la 
 ## Software de trabajo
 ### Git
 Enlace de descarga [aquí](https://git-scm.com/).
+
 Particularidades:
 En Windows podemos integrar con el explorador con:
 ![image](https://github.com/eguirod/git/assets/71733548/1967ebb3-b768-4173-bee0-ef84940d7025)
