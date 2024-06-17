@@ -28,8 +28,8 @@ No es la única de las metodologías sobre Git que podemos utilizar, pero si la 
   * *Descentralización*: Git es descentralizado, lo que significa que no hay un único repositorio central. Cada usuario tiene una copia local completa del repositorio.
   * *Velocidad*: Las operaciones en Git son generalmente más rápidas que en CVS debido a su diseño optimizado y su uso de almacenamiento local.
 *	**SVN (Subversion)**
- *	*Descentralización*: Al igual que CVS, SVN tiene un repositorio centralizado, mientras que Git es descentralizado. Esto permite una mayor flexibilidad en el trabajo colaborativo y una mejor gestión de ramas.
- *	*Ramas más eficientes*: Git maneja ramas de forma más eficiente que SVN, lo que facilita el trabajo en paralelo y la integración de cambios.
+*	 *Descentralización*: Al igual que CVS, SVN tiene un repositorio centralizado, mientras que Git es descentralizado. Esto permite una mayor flexibilidad en el trabajo colaborativo y una mejor gestión de ramas.
+*	  *Ramas más eficientes*: Git maneja ramas de forma más eficiente que SVN, lo que facilita el trabajo en paralelo y la integración de cambios.
 * **Mercurial**
   * *Velocidad*: Git tiende a ser más rápido que Mercurial en muchas operaciones, especialmente en proyectos grandes con historias largas.
   * *Herramientas y comunidad*: Git tiene una comunidad más grande y una gama más amplia de herramientas y servicios de alojamiento de repositorios, lo que facilita la colaboración y la integración con otras herramientas de desarrollo.
