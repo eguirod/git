@@ -100,4 +100,4 @@ Protocolo de red seguro para operaciones remotas, proporciona autenticación seg
 ```
 ssh-keygen -t ed25519 -C “comentario”
 ```
-   * Agregar la clave pública al servidor Git para autenticación.
+  * Agregar la clave pública al servidor Git para autenticación.
