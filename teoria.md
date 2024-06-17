@@ -160,7 +160,7 @@ Existe un gitignore_global en el que Podemos añadir lo que no queremos que se i
 ## Trabajar en remoto
 Para ello temenos que usar una plataforma de git remota, gitlab o github.
 ## Deshaciendo cambios
-###Deshaciendo en Working area
+### Deshaciendo en Working area
 Esto nos revierte el fichero a la versión HEAD (es decir, el commit en el que estamos posicionados)
 ```git checkout -- nombre_del_archivo```
 ### Deshaciendo en Staging area
