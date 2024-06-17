@@ -28,8 +28,8 @@ No es la única de las metodologías sobre Git que podemos utilizar, pero si la 
   * *Descentralización*: Git es descentralizado, lo que significa que no hay un único repositorio central. Cada usuario tiene una copia local completa del repositorio.
   * *Velocidad*: Las operaciones en Git son generalmente más rápidas que en CVS debido a su diseño optimizado y su uso de almacenamiento local.
 *	**SVN (Subversion)**
-  * *Descentralización*: Al igual que CVS, SVN tiene un repositorio centralizado, mientras que Git es descentralizado. Esto permite una mayor flexibilidad en el trabajo colaborativo y una mejor gestión de ramas.
-  * *Ramas más eficientes*: Git maneja ramas de forma más eficiente que SVN, lo que facilita el trabajo en paralelo y la integración de cambios.
+ * *Descentralización*: Al igual que CVS, SVN tiene un repositorio centralizado, mientras que Git es descentralizado. Esto permite una mayor flexibilidad en el trabajo colaborativo y una mejor gestión de ramas.
+ * *Ramas más eficientes*: Git maneja ramas de forma más eficiente que SVN, lo que facilita el trabajo en paralelo y la integración de cambios.
 * **Mercurial**
   * *Velocidad*: Git tiende a ser más rápido que Mercurial en muchas operaciones, especialmente en proyectos grandes con historias largas.
   * *Herramientas y comunidad*: Git tiene una comunidad más grande y una gama más amplia de herramientas y servicios de alojamiento de repositorios, lo que facilita la colaboración y la integración con otras herramientas de desarrollo.
@@ -87,17 +87,17 @@ Bastante utilizado por pertenecer a GitHub, pero no tiene integradas todas las o
 Protocolo de red seguro para operaciones remotas, proporciona autenticación segura y comunicaciones cifradas.
 
 * Autenticación Clave Pública:
-*  Permite acceder a repositorios Git mediante un par de claves públicas y privadas.
-*  Mayor seguridad en comparación con la autenticación basada en contraseñas.
+ * Permite acceder a repositorios Git mediante un par de claves públicas y privadas.
+ * Mayor seguridad en comparación con la autenticación basada en contraseñas.
 * Configuración de Claves SSH.
-*  Generar un par de claves SSH: pública y privada.
-*  Agregar la calve pública al servidor Git para autenticación.
+ * Generar un par de claves SSH: pública y privada.
+ * Agregar la calve pública al servidor Git para autenticación.
 * Uso con Git:
-*  Configurar Git para usar SSH en lugar de HTTP/HTTPS.
-*  Proporciona acceso seguro a repositorios remotos sin necesidad e ingresas credenciales cada vez.
+  * Configurar Git para usar SSH en lugar de HTTP/HTTPS.
+  * Proporciona acceso seguro a repositorios remotos sin necesidad e ingresas credenciales cada vez.
 * Configurando SSH
-*  Generar un par de claves SSH: pública y privada desde una terminal:
+ * Generar un par de claves SSH: pública y privada desde una terminal:
 ```
 ssh-keygen -t ed25519 -C “comentario”
 ```
-*  Agregar la clave pública al servidor Git para autenticación.
+ * Agregar la clave pública al servidor Git para autenticación.
