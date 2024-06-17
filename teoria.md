@@ -253,6 +253,7 @@ git merge --no-ff feature
 Esto fusionará los cambios de la rama feature en la rama master, creando un nuevo commit de fusión incluso si no hay conflictos entre las ramas.
 ### Para los cafeteros: git merge avanzado
 git merge es un comando más complejo de lo que parece, y puede llegar a combinar cambios de formas muy diversas. Aquí tenemos un pequeño resumen de la capacidad de git merge con diferentes estrategias para la gente con más curiosidad (esto queda fuera de los contenidos del curso, es algo avanzado):
+
 **Recursive**
 ```git merge -s recursive branch1 branch2```
 Esta estrategia actúa en dos heads. Recursive es la estrategia de fusión predeterminada a la hora de incorporar cambios de una rama o fusionarla. Además, permite detectar y manejar fusiones que implican cambios de nombre, aunque actualmente no puede usar copias detectadas. Se trata de la estrategia de fusión predeterminada a la hora de incorporar cambios de una rama o fusionarla.
