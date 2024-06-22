@@ -8,7 +8,7 @@
 
 Git TFS.
 
-Se encuentra alojada en [GitHub] (htts://github.com/git-tfs/git-tfs).
+Se encuentra alojada en [GitHub](htts://github.com/git-tfs/git-tfs).
 Es completamente opensource y viene muy bien documentado.
 La única pega es que ya no está mantenido.
 
