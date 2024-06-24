@@ -60,6 +60,39 @@ En caso de la herramienta no encuentre el changeset porque hubiera cosas rarunas
 ## No se descargan todas las ramas.
 
 Por la razón que sea se pierde alguna rama.
-La mejor forma de recuperarlo es ir rama a rama.
-Creamos un nuevo repositorio y clonamos esa rama en ese repositorio.
-Ahora en git 
+La mejor forma de recuperarlo es ir rama a rama una vez se haya clonado la rama principal.
+
+Creamos un nuevo repositorio y clonamos esa rama en ese repositorio con
+```
+git tfs clone http://tfs:8080/tfs/DefaultCollection$/Project1/nombreRama --debug --resumable --Branch=none
+```
+
+* --debug: para ver toda la traza del error
+* --resumable: para en caso de error la propia herramienta intente subsanarlo
+* --Branche=none: no indicamos ninguna rama aquí, sino en la ruta
+
+Ahora en git vamos al commit de la rama creada, es decir, si la rama que tiene conflicto se creó en la cambio, por ejemplo, 300
+en el repositorio original debeos irnos a ese cambio con
+```
+git checkout commitHashRamaCreada nombreRama
+```
+
+Creamos un remote local:
+```
+git init -bare
+```
+El repositorio que hemos creado con la rama conflictiva la pasamos a ese remoto y cuando tenemos la migración completa
+haremos un push al repositorio principal.
+```
+git remote add origin CarpetaDondeSeInicializo
+```
+
+Hacemos push hacia el repositorio hacia el origen local y luego un pull al repo original.
+```
+git pull origin -s recursive -X theirs
+```
+
+# TIPS
+
+* Estudiar las ramas que haya en VC y que se quieran migrar realmente a GIT.
+* Realizar backup cada vez que alcancemos un hito.
