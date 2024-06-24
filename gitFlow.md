@@ -42,9 +42,9 @@ Las principales diferencias entre estos dos grupos de ellas son:
 ### Master
 
 La rama master es la rama principal del repositorio y contiene el código que está actualmente 
-en producción o próximo a subir en una situación estable.
+en producción o próximo a subir en una situación estable.  
 No se hace commit de código de ella, salvo circunstancias muy especiales y por alguien con 
-altos conocimientos en el producto.
+altos conocimientos en el producto.  
 Por regla general, recibe **merges** de ramas **release** o **hotfix**. En esta rama están 
 etiquetadas todas las versiones del producto.
 
