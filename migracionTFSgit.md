@@ -30,12 +30,14 @@ La única pega es que ya no está mantenido.
 ## Clone
 
 ```
-git tfs clone http://tfs:8080/tfs/DefaultCollection$Project1 -from={0} -branches==all
+git tfs clone http://tfs:8080/tfs/DefaultCollection $Project1 -from={0} -branches==all
 ```
 
 * http://tfs:8080/tfs/DefaultCollection$Project1: ruta del tfs
 * -from={0}: indicamos desde qué commit queremos clonar (desde le inicio en este caso con 0)
 * -branches==all: para indicar las ramas
+
+Puede pedirnos las credenciales del TFS.
 
 ### Consejos
 
