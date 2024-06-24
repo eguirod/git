@@ -21,3 +21,4 @@ Por eso decimos que con git-flow partimos de un repositorio centralizado, pero q
  otro, lo que refleja todos los cambios que hace cada uno y les permite integrar código en sus
  repositorios locales y detectar conflictos de forma temprana.
 
+<img width="419" alt="gitFlow" src="https://github.com/eguirod/git/assets/71733548/04d8ea96-9a83-4772-b606-cf81628464a3">
