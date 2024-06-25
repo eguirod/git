@@ -203,3 +203,59 @@ Elimina la rama del repositorio local  ```$ git flow hotfix delete <versión>```
 
 Usaremos --no-ff para que el historial no se haga plano.
 De esta forma podremos encontrar todos los commits de las ramas.
+
+## Revisiones cruzadas
+
+### ¿Qué son las revisiones cruzadas?
+
+La **revisión por pares**(o **Pair Review**) es la revisión de tu código fuente por el resto de
+ miembros de tu equipo con el objetivo de encontrar defectos en fases tempranas (fases de
+ commit incluso antes de mergear en otras ramas) y proponer mejoras, además de controlar la
+ aplicación de reglas de codificación.  
+Esta práctica, cuando ya llega a un estado de madurez óptimo, supone un importante ahorro de
+ costes derivados en defectos futuros, mejora el feedback en el producto, reduce la
+ frustración del equipo y ayuda a mantener unos estándares y reglas de codificación vivos.  
+Parte de:
+* Compañeros de trabajo y miembros del equipo.
+* Todo aquel que tenga interés en el producto en revisión.
+* Todo aquel que esté implicado en la calidad de los desarrollos.  
+Beneficios:
+* Ayuda a generar productos comlejos y correctos.
+* Establede estándares de referencia para el equipo y promueve su seguimiento.
+* Da pie a diferentes puntos de vista.
+* Genera métricas para mejorar el proceso y la calidad de los productos.  
+Cuidado con:
+* Puede generar conflictos por disparidad en los criterios de revisión.
+* La figura de un líder puede hacer que el resto de los revisores pierdan efectividad.
+* Deben ser atómicas, no deben incluir muchos cambios. Mejor fraccionar.  
+Desventajas:
+* Aumenta el Time-to-Market.
+* Aumenta el Coste de Desarrollo.
+* Aumenta Coste en Herramientas.
+
+### Proceso
+
+Cuando un desarrollador se encuentra próximo a mergear su código con otra rama, genera una
+ “Pull Request” o petición de revisión, por la cual otros miembros del equipo dan su
+ aprobación o rechazo al cambio introducido.  
+Una vez que se cumpla la regla de revisión establecida por el equipo en consenso, se puede
+ hacer el merge. Estas reglas pueden ser del tipo, revisar por un número de miembros, un
+ senior tiene que dar aceptación… y son establecidas por el propio equipo.
+ 
+### Establece tus reglas
+
+Cada equipo/proyecto dependiendo de contexto, cliente, filosfía, cultura... determina una serie
+ de reglas, por ejemplo:
+* Debe haber como mínimo un Junior y un Senior y éste último debe esperar a que el Junior dé su opinión.
+* Una pull debe revisarse como máximo 2 días después de su creación.
+* Para rechazar es necesario justificar y proponer solución.
+* Con tres aprobaciones, se puede mergear.
+* El creador de la pull debe perseguir a los revisores.
+* No puedes tener más de 3 pull pendientes.
+* Cuando "El Experto" apruebe, se puede mergear al margen de las aprobaciones necesarias.
+
+### Herramientas
+
+En el mercado encontramos varias herramientas de gestión de la configuración que ya tienen
+ implantado este ciclo de forma opcional en sus procesos, como GitHub, GitLab o Bitbucket,
+ pudiendo utilizar la revisión “Pull Request” si el equipo lo determina.
