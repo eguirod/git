@@ -158,17 +158,17 @@ Requisitos:
 ### Comandos de las ramas Master y Develop
 
 Gitflow puede instalarse en cualquier equipo Windows, Linux o macOS de la siguiente forma:
-* macOS
+* macOS  
 Git instalado y funcional: ```$git```  
 Instalación con Homebrew: ```$ brew install git-flow-avh```  
 Instalación con Macports: ```$ port install git-flow-avh```  
 Instalación correcta: ```$ git flow / $ git flow version```  
-* Linux
+* Linux  
 Git instalado y funcional: ```$git```  
 Instalación de la extensión en Debian / Ubuntu: ```$ apt-get install git-flow```  
 Instalación de la extensión en CentOS / RedHat / Fedora: ```$ sudo dnf install gitflow```  
 Instalación correcta: ```$ git flow / $ git flow version```  
-* Windows
+* Windows  
 Git instalado y funcional: ```$git```  
 Git for Windows incluye GitFlow por defecto  
 Instalación correcta: ```$ git flow / $ git flow version```  
@@ -235,16 +235,16 @@ Esta práctica, cuando ya llega a un estado de madurez óptimo, supone un import
 Parte de:
 * Compañeros de trabajo y miembros del equipo.
 * Todo aquel que tenga interés en el producto en revisión.
-* Todo aquel que esté implicado en la calidad de los desarrollos.  
+* Todo aquel que esté implicado en la calidad de los desarrollos.
 Beneficios:
 * Ayuda a generar productos comlejos y correctos.
 * Establede estándares de referencia para el equipo y promueve su seguimiento.
 * Da pie a diferentes puntos de vista.
-* Genera métricas para mejorar el proceso y la calidad de los productos.  
+* Genera métricas para mejorar el proceso y la calidad de los productos.
 Cuidado con:
 * Puede generar conflictos por disparidad en los criterios de revisión.
 * La figura de un líder puede hacer que el resto de los revisores pierdan efectividad.
-* Deben ser atómicas, no deben incluir muchos cambios. Mejor fraccionar.  
+* Deben ser atómicas, no deben incluir muchos cambios. Mejor fraccionar.
 Desventajas:
 * Aumenta el Time-to-Market.
 * Aumenta el Coste de Desarrollo.
