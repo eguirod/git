@@ -236,15 +236,18 @@ Parte de:
 * Compañeros de trabajo y miembros del equipo.
 * Todo aquel que tenga interés en el producto en revisión.
 * Todo aquel que esté implicado en la calidad de los desarrollos.
+
 Beneficios:
 * Ayuda a generar productos comlejos y correctos.
 * Establede estándares de referencia para el equipo y promueve su seguimiento.
 * Da pie a diferentes puntos de vista.
 * Genera métricas para mejorar el proceso y la calidad de los productos.
+
 Cuidado con:
 * Puede generar conflictos por disparidad en los criterios de revisión.
 * La figura de un líder puede hacer que el resto de los revisores pierdan efectividad.
 * Deben ser atómicas, no deben incluir muchos cambios. Mejor fraccionar.
+
 Desventajas:
 * Aumenta el Time-to-Market.
 * Aumenta el Coste de Desarrollo.
