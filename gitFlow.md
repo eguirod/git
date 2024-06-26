@@ -48,6 +48,8 @@ altos conocimientos en el producto.
 Por regla general, recibe **merges** de ramas **release** o **hotfix**. En esta rama están 
 etiquetadas todas las versiones del producto.
 
+<img width="666" alt="master" src="https://github.com/eguirod/git/assets/71733548/6c85cecb-c61e-4a00-af5c-e8e319d135f7">
+
 ### Develop
 
 La rama develop es la rama principal del repositorio que contiene, además del contenido de
@@ -68,6 +70,8 @@ Recibe código de otras ramas.
 Mantiene master limpio y evitando conflictos.
 Aquí siempre habrá un desarrollo continuo, por eso habrá diferencias entre master y develop.
 
+<img width="693" alt="develop" src="https://github.com/eguirod/git/assets/71733548/eb749aee-6033-49ec-afd9-501aaba8624d">
+
 ### Feature
 
 Cada vez que se va a desarrollar una nueva funcionalidad o modificar una existente, se genera
@@ -84,6 +88,9 @@ Se generan para desarrollos cortos, no deben eternizarse.
 Pueden tener JUnits, scripts de rendimiento, calidad, automatización...
 Al final del sprint todas las features que estén finalizados y mergeados en develop serían los
  candidatos a pasar a master.
+ 
+<img width="685" alt="feature1" src="https://github.com/eguirod/git/assets/71733548/e772a001-ad6c-4a9c-bbb9-d2da353844e5">
+<img width="626" alt="feature2" src="https://github.com/eguirod/git/assets/71733548/321e60e4-c3a5-4202-b3db-7916f964a38e">
 
 ### Release
 
@@ -98,6 +105,8 @@ Sobre ella pueden realizarse pequeños cambios, corrección de defectos, estable
 Muy parecidas a las ramas hotfix.
 Nos permite no parar el desarrollo mientras se hacen pruebas y corregir pequeños cambios que se
  requieran.
+ 
+<img width="683" alt="release" src="https://github.com/eguirod/git/assets/71733548/6622bae0-212a-4bcc-a04f-4f5fd7e99793">
 
 ### Hotfix
 
@@ -109,11 +118,15 @@ Sobre ella pueden realizarse las correcciones que sean necesarias para arreglar 
 También es necesario mergear con develop para que el defecto también quede corregido en
  desarrollo y si hubiera una release preparada, también se vuelva en la release en cuestión.
  
+ <img width="680" alt="hotfix" src="https://github.com/eguirod/git/assets/71733548/ec0ebcd6-69f6-4228-8f2b-adcb39a38f82">
+
 ### Uniéndolo todo
 
 Uniéndolo todo, el proceso cobra sentido, y todos los tipos de ramas se complementan los unos
  a los otros para alcanzar los objetivos que propone GitFlow.
- 
+
+<img width="455" alt="todoUnido" src="https://github.com/eguirod/git/assets/71733548/c28c1aeb-7182-4212-ab3a-eb5fcf733cb2">
+
 ### Adaptándolo a nuestro entorno
 
 Ejemplos de entornos:
@@ -169,6 +182,8 @@ $ git branch
 
 Esto generará un repositorio inicial basado en gitflow y con las ramas principales ya creadas.
 
+<img width="404" alt="gitFlowRamas" src="https://github.com/eguirod/git/assets/71733548/4ca2240d-c4c3-4097-a4e7-e56cba698f12">
+
 ### Comandos de la rama Feature
 
 Comandos disponibles a nivel de feature ```$ git flow feature help```
@@ -203,6 +218,8 @@ Elimina la rama del repositorio local  ```$ git flow hotfix delete <versión>```
 
 Usaremos --no-ff para que el historial no se haga plano.
 De esta forma podremos encontrar todos los commits de las ramas.
+
+<img width="586" alt="mergeNoFF" src="https://github.com/eguirod/git/assets/71733548/41689376-1557-4b8d-af1b-ba1f41946102">
 
 ## Revisiones cruzadas
 
@@ -241,7 +258,10 @@ Cuando un desarrollador se encuentra próximo a mergear su código con otra rama
 Una vez que se cumpla la regla de revisión establecida por el equipo en consenso, se puede
  hacer el merge. Estas reglas pueden ser del tipo, revisar por un número de miembros, un
  senior tiene que dar aceptación… y son establecidas por el propio equipo.
- 
+
+<img width="504" alt="proceso" src="https://github.com/eguirod/git/assets/71733548/5b29db9b-2c5b-48d8-9d0e-0fa36d40646c">
+
+
 ### Establece tus reglas
 
 Cada equipo/proyecto dependiendo de contexto, cliente, filosfía, cultura... determina una serie
